@@ -1,5 +1,5 @@
 ##############################################################################################################
-#             Cyber Patriot Checklist - Windows v3.5                                                         #
+#             Cyber Patriot Checklist - Windows v4.0                                                         #
 #             Created By Bennett Yardley                                                                     #
 #             Licensed Under GNU                                                                             # 
 #             To view more information type "i", To continue type "c", To go to next section type "n"        #
@@ -11,9 +11,10 @@ def FRST():
 	os.system('cls')
 	print "FRST"
 	print " "
-	################################################
-	print "LOLOLOLOLOL - THIS NEEDS A LOT OF WORK"
-	################################################
+	print 'You may need to change "only elevation applications that are signed/validated - enabled" in secpol.msc (security options)'
+	print "Check all options - Press Scan"
+	print "Carefully look through the output files - if you see anything copy it into a new text file (underneath the same directory) called fixlist.txt"
+	print "Press the fix button when fixlist.txt is finished"
 	print " "
 
 
@@ -376,7 +377,7 @@ def openingNotes():
 def main():
 	os.system('cls')
 	os.system('color 2')
-	print "Cyber Patriot Checklist - Windows v3.5" 
+	print "Cyber Patriot Checklist - Windows v4.0" 
 	print "Created By Bennett Yardley"
 	print "Licensed Under GNU"
 	print 'To view more information type "i", To continue type "c", To go to next section type "n"'
