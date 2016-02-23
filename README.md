@@ -8,4 +8,8 @@ To view more information type "i", To continue type "c", To go to next section t
 
 TODO
 Change everything to C or I (remove n)
+
 Add automatic registry
+
+Firewall
+
