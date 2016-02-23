@@ -102,6 +102,21 @@ def fileExplorer():
 			taskManager()
 
 
+def inter():
+	print "At this point you should save / take a picture of your points"
+	print "You may want to do this a few times throughout"
+	print "If you didn't install service packs you may want to now"
+	print " "
+	inter1 = raw_input("Continue or View More Info: ")
+	if inter1 == 'c': 
+		fileExplorer()
+	if inter1 == 'i':
+		print "No information is currently available for this topic"
+		inter2 = raw_input("Continue?: ")
+		if inter2 == 'c':
+			fileExplorer()
+
+
 def secpolLP():
 	os.system('cls')
 	print "Local Security Policy"
@@ -119,12 +134,12 @@ def secpolLP():
 	print " "
 	choice15 = raw_input("Continue or View More Info: ")
 	if choice15 == 'c': 
-		fileExplorer()
+		inter()
 	if choice15 == 'i':
 		print "No information is currently available for this topic"
 		choice16 = raw_input("Continue?: ")
 		if choice16 == 'c':
-			fileExplorer()
+			inter()
 
 
 def secpolAP():
