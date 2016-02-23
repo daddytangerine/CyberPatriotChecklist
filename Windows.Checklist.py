@@ -1,5 +1,11 @@
-import os
+##############################################################################################################
+#             Cyber Patriot Checklist - Windows v2.9                                                         #
+#             Created By Bennett Yardley                                                                     #
+#             Licensed Under GNU                                                                             # 
+#             To view more information type "i", To continue type "c", To go to next section type "n"        #
+##############################################################################################################
 
+import os
 
 def FRST():
 	os.system('cls')
@@ -302,7 +308,7 @@ def openingNotes():
 def main():
 	os.system('cls')
 	os.system('color 2')
-	print "Cyber Patriot Checklist - Windows v1.9" 
+	print "Cyber Patriot Checklist - Windows v2.9" 
 	print "Created By Bennett Yardley"
 	print "Licensed Under GNU"
 	print 'To view more information type "i", To continue type "c", To go to next section type "n"'
