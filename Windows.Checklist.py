@@ -25,7 +25,7 @@ def windows8():
 	print "Privacy:"
 	print "Turn off all allow share location"
 	print "Turn off Camera"
-	print "Turn off Mircrophone"
+	print "Turn off Microphone"
 	print "Don't Allow apps to use Account Info"
 	print "Don't Allow apps to use Contact Info"
 	print "...Don't Allow apps to use anything"
